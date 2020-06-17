@@ -10,7 +10,7 @@ function checkToken() {
 }
 
 function redirectToLogin() {
-	window.location.href = '/';
+	window.location.href = '/chatbot.github.io/';
 }
 
 function setAppToken(token) {
