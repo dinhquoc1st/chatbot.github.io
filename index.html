@@ -278,7 +278,7 @@ $("#login-button").click(function(event){
 			hash: CryptoJS.SHA256(time + "" + pwd).toString()
 		}
 		var token = CryptoJS.AES.encrypt(JSON.stringify(a), pwd).toString();
-		var host = 'sinhviendanang.herokuapp.com';
+		var host = 'healerne.herokuapp.com';
 		$.ajax({
 			url: 'https://' + host + '/admin/auth',
 			method: 'post',
